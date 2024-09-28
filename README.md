@@ -1,4 +1,4 @@
-# Learning-Machine-Learning
+# Learn Machine Learning
 
 
 # Contents
