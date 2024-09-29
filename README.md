@@ -41,10 +41,11 @@
     - Softplus
 
 3. Loss Function
-4. Forward Propogation
-5. Backward Propogation
-
-6. Hyperparameter Tuning
-
-7. Resources
+4. Optimizers
+5. Forward Propogation
+6. Backward Propogation
+7. Pooling
+8. Non Linearity
+8. Hyperparameter Tuning
+9. Resources
 
