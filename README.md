@@ -13,7 +13,12 @@
 4. Resources
 
 
-## 2. Deep Learning
+## 2. Neural Networks
+1. Recurrent Neural Network (RNN)
+    1.1 Long Short Term Network (LSTM)
+
+
+## 3. Deep Learning
 1. Basics
 
     1.1 The Perceptron
