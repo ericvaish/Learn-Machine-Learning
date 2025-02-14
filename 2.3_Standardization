@@ -1,0 +1,45 @@
+## What is Standardization?
+
+It is a **feature scaling technique** used to transform numerical data into standard format. It ensures all features have a **mean of 0 and a standard deviation of 1**, making them comparable.
+
+​
+### **Formula for Standardization**
+For each feature \( X \), standardization is done using:
+
+\[
+X' = \frac{X - \mu}{\sigma}
+\]
+
+Where:
+- \( X \) = original feature value
+- \( \mu \) = mean of the feature
+- \( \sigma \) = standard deviation of the feature
+- \( X' \) = standardized feature value
+
+
+### **Why Standardization?**
+1. **Improves Model Performance**: Many ML algorithms (like logistic regression, SVM, and neural networks) perform better when features are standardized.
+2. **Speeds Up Training**: Gradient descent converges faster when features are on the same scale.
+3. **Handles Different Feature Scales**: If features have different scales (e.g., age in years vs. salary in thousands), standardization makes them comparable.
+4. **Prevents Bias Towards Larger Magnitude Features**: Some models, like k-NN and SVM, rely on distance calculations, which get skewed by unscaled data.
+
+### **When to Use Standardization?**
+- When using algorithms that rely on distance-based calculations (e.g., **KNN, SVM, PCA, K-Means**).
+- When using **gradient-based models** (e.g., **logistic regression, neural networks**) to improve convergence speed.
+
+### **Example Using Python (StandardScaler from scikit-learn)**
+```python
+from sklearn.preprocessing import StandardScaler
+import numpy as np
+
+# Sample data
+X = np.array([[100, 2000], [120, 2200], [130, 2500], [90, 1800]])
+
+# Standardization
+scaler = StandardScaler()
+X_standardized = scaler.fit_transform(X)
+
+print(X_standardized)
+```
+
+Would you like an example applied to your dataset? 🚀
