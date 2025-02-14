@@ -1,0 +1,15 @@
+## Activation Function
+it is a mathematical function applied to a neuron's output to introduce non linearity, enabling the model to learn complex patterns.
+
+1. Linear Activation Functions
+
+f(x) = (x)
+
+**Use Case:** Not commonly used as it dosent introduce non linearity.
+
+
+2. Non-Linear Activation Functions
+
+
+(i) Sigmoid 
+f(x)= 1 / (1+e−x1)​
